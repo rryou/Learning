@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9da570df-33a5-8045-a681-4493458c9374++974",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "9da570df-33a5-8045-a681-4493458c9374++974" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9da570df-33a5-8045-a681-4493458c9374++974" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2BB41CA4-DF9A-4810-BF06-C26FE864E560",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9da570df-33a5-8045-a681-4493458c9374++974" : "EmomeyIM\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "EmomeyIM",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "EmomeyIM.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.0.36\/svn\/GoodStock",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9da570df-33a5-8045-a681-4493458c9374++974"
+    }
+  ]
+}

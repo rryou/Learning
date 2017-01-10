@@ -1,0 +1,20 @@
+//
+// Prefix header for all source files of the 'WSAssetPicker' target in the 'WSAssetPicker' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <AssetsLibrary/AssetsLibrary.h>
+#endif
+
+#ifdef WSASSETPICKER_LOG
+#   define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#   define DLog(...)
+#endif
+
+#define ScreenStatusBar 20.0f
+#define ScreenNavigationBar     44.0f
+#define ScreenWidth     [[UIScreen mainScreen] bounds].size.width
+#define ScreenHeight    ([[UIScreen mainScreen] bounds].size.height - ScreenStatusBar)

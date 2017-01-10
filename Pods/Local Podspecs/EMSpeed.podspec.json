@@ -1,0 +1,242 @@
+{
+  "name": "EMSpeed",
+  "version": "0.3.3",
+  "summary": "EMSpeed Collections with Foundation, UIKit.",
+  "description": "EMSpeed Collections with Foundation, UIKit.\n基础框架",
+  "homepage": "http://ph.benemind.com/diffusion/EMSPEED/emspeed",
+  "license": "MIT",
+  "authors": {
+    "Emoney": "ios@emoney.com"
+  },
+  "source": {
+    "git": "http://ph.benemind.com/diffusion/EMSPEED/emspeed.git",
+    "tag": "0.3.3"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "frameworks": [
+    "Foundation",
+    "CoreGraphics"
+  ],
+  "public_header_files": "EMSpeed/Speed.h",
+  "source_files": "EMSpeed/Speed.h",
+  "subspecs": [
+    {
+      "name": "Core",
+      "public_header_files": "EMSpeed/Core/**/*.h",
+      "source_files": "EMSpeed/Core/**/*.{h,m,c,swift}",
+      "frameworks": "Security"
+    },
+    {
+      "name": "MSContext",
+      "public_header_files": "EMSpeed/MSContext/**/*.h",
+      "source_files": "EMSpeed/MSContext/**/*.{h,m,c,swift}"
+    },
+    {
+      "name": "UIKit",
+      "public_header_files": "EMSpeed/UIKit/MSUIKit.h",
+      "source_files": "EMSpeed/UIKit/MSUIKit.h",
+      "subspecs": [
+        {
+          "name": "Core",
+          "public_header_files": "EMSpeed/UIKit/Core/**/*.h",
+          "source_files": "EMSpeed/UIKit/Core/**/*.{h,m,c}",
+          "dependencies": {
+            "EMSpeed/Core": [
+
+            ]
+          }
+        },
+        {
+          "name": "UIImages",
+          "public_header_files": "EMSpeed/UIKit/UIImages/**/*.h",
+          "source_files": "EMSpeed/UIKit/UIImages/**/*.{h,m,c}",
+          "dependencies": {
+            "EMSpeed/UIKit/Core": [
+
+            ]
+          }
+        },
+        {
+          "name": "Animations",
+          "public_header_files": "EMSpeed/UIKit/Animations/**/*.h",
+          "source_files": "EMSpeed/UIKit/Animations/**/*.{h,m,c}",
+          "dependencies": {
+            "EMSpeed/UIKit/Core": [
+
+            ]
+          }
+        },
+        {
+          "name": "UIKitCollections",
+          "public_header_files": "EMSpeed/UIKit/UIKitCollections/**/*.h",
+          "source_files": "EMSpeed/UIKit/UIKitCollections/**/*.{h,m,c}",
+          "dependencies": {
+            "EMSpeed/UIKit/Core": [
+
+            ],
+            "EMSpeed/UIKit/UIColors": [
+
+            ],
+            "EMSpeed/MSContext": [
+
+            ]
+          }
+        },
+        {
+          "name": "WebImage",
+          "public_header_files": "EMSpeed/UIKit/WebImage/**/*.h",
+          "source_files": "EMSpeed/UIKit/WebImage/**/*.{h,m,c}",
+          "dependencies": {
+            "SDWebImage": [
+
+            ],
+            "EMSpeed/UIKit/UIImages": [
+
+            ]
+          }
+        },
+        {
+          "name": "MultiPagingView",
+          "public_header_files": "EMSpeed/UIKit/MultiPagingView/src/**/*.h",
+          "source_files": "EMSpeed/UIKit/MultiPagingView/src/**/*.{h,m,c}",
+          "resources": "EMSpeed/UIKit/MultiPagingView/resource/*",
+          "dependencies": {
+            "EMSpeed/UIKit/WebImage": [
+
+            ],
+            "EMSpeed/UIKit/UIKitCollections": [
+
+            ]
+          }
+        },
+        {
+          "name": "UIColors",
+          "source_files": "EMSpeed/UIKit/UIColors/**/*.{h,m,c}",
+          "dependencies": {
+            "EMSpeed/UIKit/Core": [
+
+            ]
+          }
+        },
+        {
+          "name": "FontAwesome+iOS",
+          "public_header_files": "EMSpeed/UIKit/FontAwesome+iOS/**/*.h",
+          "source_files": "EMSpeed/UIKit/FontAwesome+iOS/**/*.{h,m}",
+          "resources": "EMSpeed/UIKit/FontAwesome+iOS/resource/**/*.*"
+        },
+        {
+          "name": "PopupView",
+          "public_header_files": "EMSpeed/UIKit/PopupView/**/*.h",
+          "source_files": "EMSpeed/UIKit/PopupView/**/*.{h,m}",
+          "dependencies": {
+            "EMSpeed/UIKit/Core": [
+
+            ],
+            "EMSpeed/UIKit/UIImages": [
+
+            ],
+            "EMSpeed/MSContext": [
+
+            ]
+          }
+        },
+        {
+          "name": "CollectionModels",
+          "public_header_files": "EMSpeed/UIKit/CollectionModels/src/**/*.h",
+          "source_files": "EMSpeed/UIKit/CollectionModels/src/**/*.{h,m}",
+          "resources": "EMSpeed/UIKit/CollectionModels/resource/**/*.*",
+          "dependencies": {
+            "EMSpeed/UIKit/WebImage": [
+
+            ],
+            "EMSpeed/Core": [
+
+            ]
+          }
+        },
+        {
+          "name": "TableModels",
+          "public_header_files": "EMSpeed/UIKit/TableModels/**/*.h",
+          "source_files": "EMSpeed/UIKit/TableModels/**/*.{h,m}",
+          "dependencies": {
+            "EMSpeed/UIKit/Core": [
+
+            ],
+            "MJRefresh": [
+
+            ]
+          }
+        },
+        {
+          "name": "StatusBar",
+          "public_header_files": "EMSpeed/UIKit/StatusBar/**/*.h",
+          "source_files": "EMSpeed/UIKit/StatusBar/**/*.{h,m}",
+          "dependencies": {
+            "EMSpeed/UIKit/Core": [
+
+            ]
+          }
+        },
+        {
+          "name": "GuideView",
+          "public_header_files": "EMSpeed/UIKit/GuideView/**/*.h",
+          "source_files": "EMSpeed/UIKit/GuideView/**/*.{h,m}",
+          "dependencies": {
+            "EMSpeed/UIKit/Animations": [
+
+            ],
+            "EMSpeed/UIKit/Core": [
+
+            ]
+          }
+        },
+        {
+          "name": "Container",
+          "public_header_files": "EMSpeed/UIKit/Container/**/*.h",
+          "source_files": "EMSpeed/UIKit/Container/**/*.{h,m}",
+          "resources": "EMSpeed/UIKit/Container/resource/*.*",
+          "dependencies": {
+            "EMSpeed/UIKit/Core": [
+
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Network",
+      "public_header_files": "EMSpeed/Network/**/*.h",
+      "source_files": "EMSpeed/Network/**/*.{h,m}",
+      "dependencies": {
+        "EMSpeed/UIKit/Core": [
+
+        ],
+        "AFNetworking": [
+
+        ]
+      }
+    },
+    {
+      "name": "Network2.0",
+      "public_header_files": "EMSpeed/Network2.0/**/*.h",
+      "source_files": "EMSpeed/Network2.0/**/*.{h,m}",
+      "dependencies": {
+        "EMSpeed/UIKit/Core": [
+
+        ],
+        "AFNetworking": [
+
+        ],
+        "PINCache": [
+
+        ],
+        "JSONModel": [
+
+        ]
+      }
+    }
+  ]
+}

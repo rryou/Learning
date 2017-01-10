@@ -1,0 +1,127 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CocoaAsyncSocket (7.5.0):
+    - CocoaAsyncSocket/GCD (= 7.5.0)
+  - CocoaAsyncSocket/GCD (7.5.0)
+  - EMSpeed (0.3.3):
+    - EMSpeed/Core (= 0.3.3)
+    - EMSpeed/MSContext (= 0.3.3)
+    - EMSpeed/Network (= 0.3.3)
+    - EMSpeed/Network2.0 (= 0.3.3)
+    - EMSpeed/UIKit (= 0.3.3)
+  - EMSpeed/Core (0.3.3)
+  - EMSpeed/MSContext (0.3.3)
+  - EMSpeed/Network (0.3.3):
+    - AFNetworking
+    - EMSpeed/UIKit/Core
+  - EMSpeed/Network2.0 (0.3.3):
+    - AFNetworking
+    - EMSpeed/UIKit/Core
+    - JSONModel
+    - PINCache
+  - EMSpeed/UIKit (0.3.3):
+    - EMSpeed/UIKit/Animations (= 0.3.3)
+    - EMSpeed/UIKit/CollectionModels (= 0.3.3)
+    - EMSpeed/UIKit/Container (= 0.3.3)
+    - EMSpeed/UIKit/Core (= 0.3.3)
+    - EMSpeed/UIKit/FontAwesome+iOS (= 0.3.3)
+    - EMSpeed/UIKit/GuideView (= 0.3.3)
+    - EMSpeed/UIKit/MultiPagingView (= 0.3.3)
+    - EMSpeed/UIKit/PopupView (= 0.3.3)
+    - EMSpeed/UIKit/StatusBar (= 0.3.3)
+    - EMSpeed/UIKit/TableModels (= 0.3.3)
+    - EMSpeed/UIKit/UIColors (= 0.3.3)
+    - EMSpeed/UIKit/UIImages (= 0.3.3)
+    - EMSpeed/UIKit/UIKitCollections (= 0.3.3)
+    - EMSpeed/UIKit/WebImage (= 0.3.3)
+  - EMSpeed/UIKit/Animations (0.3.3):
+    - EMSpeed/UIKit/Core
+  - EMSpeed/UIKit/CollectionModels (0.3.3):
+    - EMSpeed/Core
+    - EMSpeed/UIKit/WebImage
+  - EMSpeed/UIKit/Container (0.3.3):
+    - EMSpeed/UIKit/Core
+  - EMSpeed/UIKit/Core (0.3.3):
+    - EMSpeed/Core
+  - EMSpeed/UIKit/FontAwesome+iOS (0.3.3)
+  - EMSpeed/UIKit/GuideView (0.3.3):
+    - EMSpeed/UIKit/Animations
+    - EMSpeed/UIKit/Core
+  - EMSpeed/UIKit/MultiPagingView (0.3.3):
+    - EMSpeed/UIKit/UIKitCollections
+    - EMSpeed/UIKit/WebImage
+  - EMSpeed/UIKit/PopupView (0.3.3):
+    - EMSpeed/MSContext
+    - EMSpeed/UIKit/Core
+    - EMSpeed/UIKit/UIImages
+  - EMSpeed/UIKit/StatusBar (0.3.3):
+    - EMSpeed/UIKit/Core
+  - EMSpeed/UIKit/TableModels (0.3.3):
+    - EMSpeed/UIKit/Core
+    - MJRefresh
+  - EMSpeed/UIKit/UIColors (0.3.3):
+    - EMSpeed/UIKit/Core
+  - EMSpeed/UIKit/UIImages (0.3.3):
+    - EMSpeed/UIKit/Core
+  - EMSpeed/UIKit/UIKitCollections (0.3.3):
+    - EMSpeed/MSContext
+    - EMSpeed/UIKit/Core
+    - EMSpeed/UIKit/UIColors
+  - EMSpeed/UIKit/WebImage (0.3.3):
+    - EMSpeed/UIKit/UIImages
+    - SDWebImage
+  - JSONModel (1.5.1)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.12)
+  - PINCache (2.3)
+  - pop (1.0.9)
+  - PureLayout (3.0.2)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket (~> 7.5.0)
+  - EMSpeed (from `http://ph.benemind.com/diffusion/EMSPEED/emspeed.git`)
+  - MBProgressHUD
+  - pop (~> 1.0.9)
+  - PureLayout (~> 3.0.2)
+
+EXTERNAL SOURCES:
+  EMSpeed:
+    :git: http://ph.benemind.com/diffusion/EMSPEED/emspeed.git
+
+CHECKOUT OPTIONS:
+  EMSpeed:
+    :commit: 6afc45ef0c08bd21fe32f39cd6b47c1709fbe958
+    :git: http://ph.benemind.com/diffusion/EMSPEED/emspeed.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CocoaAsyncSocket: 3baeb1ddd969f81cf9fca81053ae49ef2d1cbbfa
+  EMSpeed: 0e1d7ba0b83b19a2de0516f5f9c9ccbe5f05acfb
+  JSONModel: fd2553dc9e6608a3f35bfc956a14be35395d3852
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+
+PODFILE CHECKSUM: 1110e43a286252c3810c7f91567e32d1592e33a8
+
+COCOAPODS: 1.1.1

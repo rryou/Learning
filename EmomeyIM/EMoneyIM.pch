@@ -1,0 +1,25 @@
+//
+//  EMoneyIM.pch
+//  EmomeyIM
+//
+//  Created by yourongrong on 2016/10/31.
+//  Copyright © 2016年 frank. All rights reserved.
+//
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#endif
+
+#ifndef EMoneyIM_pch
+#define EMoneyIM_pch
+NSString * const RHSocketQueuedown = @"com.rhsocket.RHSocketQueuedownload";
+NSString * const RHSocketQueueupload = @"com.rhsocket.RHSocketQueueupload";
+
+
+NSString * const UpdateGroupNotice = @"UpdateGroupNotice_Message";
+//NSString * const UpdateMemberNotice = @"UpdateMemberNotice_Message";
+NSString * const UpdateSelfNoticeMessage = @"UpdateSelfNotice";
+
+#define SOCKETADDRESS   @"180.153.222.47"
+#define SOCKETPORT      6851
+
+#endif /* EMoneyIM_pch */
